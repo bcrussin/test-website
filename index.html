@@ -1,8 +1,9 @@
 <!doctype html>
 <html>
   <head>
-    <title>Test Site</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Patrick Crusse, PLA</title>
+    <link rel="stylesheet" type="text/css" href="styles/global.css" />
+    <link rel="icon" type="image/x-icon" href="/images/logo_square.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
@@ -13,13 +14,15 @@
       </div>
 
       <nav>
-        <a>Home</a>
-        <a>Portfolio</a>
+        <a class="selected">Home</a>
+        <a href="portfolio/index.html">Portfolio</a>
         <a>Contact</a>
       </nav>
     </header>
 
     <main>
+      <img class="page-background" src="images/walkway-bushes.jpg" />
+
       <section class="logo-header">
         <img class="content-background" src="images/home-background.jpg" />
         <div class="content-wrapper logo-row">
@@ -65,9 +68,7 @@
         </div>
       </section>
 
-      <section class="about-me">
-        <img class="content-background" src="images/walkway-bushes.jpg" />
-
+      <section class="interests-portfolio">
         <div class="content-wrapper about-me-row">
           <div class="card translucent">
             <h2>Interests</h2>
@@ -90,6 +91,23 @@
               develop landscape designs and management plans for a diverse
               collection of clients and properties.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="content-wrapper">
+          <div class="service-container">
+            <p>Designs</p>
+            <img src="images/design.jpg" />
+          </div>
+          <div class="service-container">
+            <p>Consultations</p>
+            <img src="images/consult.jpg" />
+          </div>
+          <div class="service-container">
+            <p>Models</p>
+            <img src="images/model.jpg" />
           </div>
         </div>
       </section>
